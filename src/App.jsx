@@ -309,7 +309,7 @@ const FaceRecognitionApp = () => {
 
   const getLabeledFaceDescriptions = async () => {
     // Define the labels - these should match your folder names in public/labels/
-    const labels = ["Messi", "Data"]; // Modify these based on your actual labels
+    const labels = ["Messi", "Data","Virat"]; // Modify these based on your actual labels
     
     return Promise.all(
       labels.map(async (label) => {
